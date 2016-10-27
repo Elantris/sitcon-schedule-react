@@ -54,7 +54,11 @@ table {
 		}
 	}
 	.forum-slot {
-		background: rgba(255, 255, 255, .6);
+		background-color: rgba(255, 255, 255, .6);
+		transition: background-color 1000ms cubic-bezier(0.17, 0.84, 0.44, 1);
+		&:hover {
+			background-color: rgba(255, 255, 255, 1);
+		}
 		> * {
 			padding: 0 1em;
 		}
@@ -75,6 +79,19 @@ table {
 		.slides {
 			color: #0093ba;
 			text-decoration: none;
+		}
+		dl {
+			margin: 0;
+			line-height: 30px;
+			dt {
+				float: left;
+				width: 48%;
+				text-align: right;
+			}
+			dd {
+				margin-left: 50%;
+				text-align: left;
+			}
 		}
 	}
 }

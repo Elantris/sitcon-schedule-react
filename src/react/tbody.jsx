@@ -34,12 +34,28 @@ function Speaker(speaker, i) {
 	)
 }
 
+function LightningTalkList(list) {
+	return (
+		<dl>
+			{list.map((v, i) => {
+				return (
+					<div key={i}>
+						<dt>{v[0]}</dt>
+						<dd>{v[1]}</dd>
+					</div>
+				)
+			})}
+		</dl>
+	)
+}
+
 function EventCell(data, i) {
 	return (
 		<td key={i} colSpan={data.col || 1} rowSpan={data.row || 1} className="forum-slot">
 			<div className="title">{data.title}</div>
 			{typeof data.speaker === 'object' ? data.speaker.map(Speaker) : Speaker(data.speaker)}
-			{(data.slides ? <a href={data.slides} target="_blank" rel="noopener noreferrer" className="slides">#簡報連結</a> : '')}
+			{data.slides ? <a href={data.slides} target="_blank" rel="noopener noreferrer" className="slides">#簡報連結</a> : ''}
+			{data.list ? LightningTalkList(data.list) : ''}
 		</td>
 	)
 }
