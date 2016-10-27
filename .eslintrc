@@ -1,0 +1,23 @@
+{
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"airbnb"
+	],
+	"rules": {
+		"indent": [
+			"error",
+			"tab"
+		],
+		"no-tabs": "off",
+		"no-undef": "off",
+		"quotes": [
+			"error",
+			"single"
+		],
+		"semi": [
+			"error",
+			"never"
+		]
+	}
+}
