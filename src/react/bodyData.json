@@ -1,0 +1,121 @@
+[
+	[
+		{ "type": "time", "start": "0830" },
+		{ "col": 4, "title": "入場時間" },
+		{ "type": "empty" }
+	],
+	[
+		{ "type": "time", "start": "0900" },
+		{ "col": 4, "title": "開幕" },
+		{ "type": "empty" }
+	],
+	[
+		{ "type": "time", "start": "0910", "end": "1000" },
+		{ "col": 4, "title": "開源．開幹．開花", "speaker": 107 },
+		{ "type": "empty" }
+	],
+	[
+		{ "type": "time", "start": "1010", "end": "1100" },
+		{ "col": 4, "title": "我的自由軟體之路", "speaker": 16, "slides": "http://www.slideshare.net/Chengchiatseng/sitcon-2016" },
+		{ "type": "empty" }
+	],
+	[
+		{ "type": "time", "start": "1110" },
+		{ "row": 2, "title": "在樹梅派土炮農場是否搞錯了什麼", "speaker": 66, "slides": "https://drive.google.com/file/d/0BzP5BGih9Ax7M2o0b1pMQS1jLXc/view?usp=sharing" },
+		{ "row": 2, "title": "以推廣者角度參與國際社群經驗談", "speaker": 19, "slides": "https://goo.gl/0nfKQA" },
+		{ "row": 2, "title": "SITCON 籌備與行政投稿系統開發", "speaker": 70 },
+		{ "row": 2, "title": "藝術家也為之瘋狂的 JS Library", "speaker": 57, "slides": "http://www.slideshare.net/chiunhau/js-library" },
+		{ "title": "樂高般的網頁：Polymer", "speaker": "民2" }
+	],
+	[
+		{ "type": "time", "start": "1130" },
+		{ "title": "新創團隊＆公司如何獲得資金", "speaker": "任軒" },
+		{ "type": "empty" }
+	],
+	[
+		{ "type": "time", "start": "1150" },
+		{ "col": 4, "title": "午餐" },
+		{ "type": "empty" }
+	],
+	[
+		{ "type": "time", "start": "1240" },
+		{ "col": 4, "title": "論臺灣資訊普及教育：過去、現在與未來", "speaker": ["HongShiHao", "GaoHuiJun", "ChenLingZhi", "ChenWeiHong"] },
+		{ "type": "empty" }
+	],
+	[
+		{ "type": "time", "start": "1410" },
+		{ "col": 4, "title": "交流" },
+		{ "title": "沙龍" }
+	],
+	[
+		{ "type": "time", "start": "1450" },
+		{ "col": 4, "title": "點心" },
+		{ "title": "沙龍" }
+	],
+	[
+		{ "type": "time", "start": "1510", "end": "1520" },
+		{ "title": "學而「實習」之", "speaker": 56, "slides": "http://slides.com/michael34435/intern_in_your_journey" },
+		{ "title": "網釣就在你身旁~ 校園資安報告", "speaker": 24 },
+		{ "title": "商科學生遇到程式", "speaker": 90 },
+		{ "title": "ARM uVisor Debug Refinement Project", "speaker": 80, "slides": "http://www.slideshare.net/ssuser803c6e/arm-uvisor-debug-refinement-project" },
+		{ "type": "empty" }
+	],
+	[
+		{ "type": "time", "start": "1520", "end": "1530" },
+		{ "title": "學生如何成為遊戲開發者", "speaker": 22 },
+		{ "title": "Got Your PW - 入門資安的微旅行", "speaker": 50, "slides": "http://www.slideshare.net/s3131212/got-your-pw" },
+		{ "title": "進擊的開源推廣！", "speaker": 30, "slides": "http://slides.com/meng-yingtsai/sitcon2016" },
+		{ "title": "0mu 動態式分散部落格管理系統", "speaker": 50 },
+		{ "row": 2, "title": "Docker-War", "speaker": "Lobsiinvok (L)" }
+	],
+	[
+		{ "type": "time", "start": "1530", "end": "1540" },
+		{ "title": "跨平台佈署建築資訊模型應用系統", "speaker": 18, "slides": "https://speakerdeck.com/pingnote/sitcon-2016-cross-platform-bim" },
+		{ "title": "我和 SITCON 交往的這些年", "speaker": 63 },
+		{ "title": "客製化我的開發環境並將它開源！", "speaker": 26, "slides": "http://slides.pastleo.me/SITCON_2016_myStyle/" },
+		{ "title": "Pandas！資料處理與分析的利器！", "speaker": 87 }
+	],
+	[
+		{ "type": "time", "start": "1550" },
+		{ "row": 2, "title": "防毒擋不住？勒索病毒猖獗與實作", "speaker": 32, "slides": "http://www.slideshare.net/MaHauo/ss-59732934" },
+		{ "row": 2, "title": "工程師也能懂的前端美學", "speaker": 88, "slides": "https://www.facebook.com/media/set/?set=a.507914002721762.1073741829.504797396366756&type=3&uploaded=56" },
+		{ "row": 2, "title": "網頁執行語言的原生效能之戰", "speaker": 12, "slides": "http://www.slideshare.net/bekketmcclane/war-of-native-speed-on-web-sitcon2016" },
+		{ "row": 2, "title": "ARM Cloud Project", "speaker": 69, "slides": "https://speakerdeck.com/tjjh89017/sitcon-2016-arm-cloud-project" },
+		{ "title": "吾愛遊戲，但是電影畫面比較讚", "speaker": "清風" }
+	],
+	[
+		{ "type": "time", "start": "1610", "end": "1630" },
+		{ "title": "簡潔優雅的語言 —— Crystal", "speaker": "Davy" }
+	],
+	[
+		{ "type": "time", "start": "1640" },
+		{ "row": 2, "title": "以圖書資訊學的角度來看 HTML 與 SEO", "speaker": 68 },
+		{ "row": 2, "title": "翻牆實戰", "speaker": 17, "slides": "http://slid.es/akira02/wall" },
+		{ "row": 2, "title": "如何成功貢獻到 OpenStack 社群！", "speaker": 91 },
+		{ "row": 2, "title": "支援DSL的嵌入式圖形操作環境", "speaker": 79, "slides": "http://www.slideshare.net/choujohn351/dsl-58795980" },
+		{ "title": "Webpack 101", "speaker": "tz5514" }
+	],
+	[
+		{ "type": "time", "start": "1700", "end": "1720" },
+		{ "title": "簡介 Linux 的 Network Namespace 功能", "speaker": "Zuan" }
+	],
+	[
+		{ "type": "time", "start": "1730" }, {
+			"col": 4,
+			"title": "Lightning talk",
+			"list": [
+				["松鼠亞所", "讀英文文件不再看三小"],
+				["rsghost", "你媽知道你在玩鐵捲門嗎 CTLUG@台中"],
+				["Nina", "華麗蚊子館通靈術"],
+				["昱陞", "NCC 無障礙 A+ 血淚史"],
+				["HrJ", "alert(\"不要亂填\") & .TDOH 2016 工商"],
+				["零夢and呆翰", "ASCII ArtCollection for shell!"]
+			]
+		}, { "type": "empty" }
+	],
+	[
+		{ "type": "time", "start": "1755", "end": "1805" },
+		{ "col": 4, "title": "閉幕" },
+		{ "type": "empty" }
+	]
+]
