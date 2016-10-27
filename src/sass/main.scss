@@ -1,0 +1,80 @@
+body {
+	background: #77BDE1;
+	font-family: "Noto Sans", "Microsoft JhengHei", "PT Sans Narrow", "Source Han Sans TWHK", sans-serif;
+}
+
+.container {
+	width: 1024px;
+	margin: 2em auto;
+}
+
+table {
+	text-align: center;
+	th {
+		color: white;
+		font-size: 16pt;
+		a {
+			display: inline-block;
+			margin: .3em .3em 0;
+			padding: 0 .3em;
+			background: #41a2c9;
+			color: rgba(255, 255, 255, .6);
+			font-size: .8em;
+			font-weight: 100;
+			text-decoration: none;
+			border-radius: 3px;
+		}
+	}
+	td {
+		min-height: 64px;
+		padding: 8px 0;
+	}
+	.time-slot {
+		width: 40px;
+		.time {
+			position: relative;
+			display: block;
+			height: 40px;
+			color: white;
+			font-size: 16pt;
+			small {
+				font-size: 10pt;
+				opacity: .5;
+			}
+			.time-start {
+				position: absolute;
+				top: 0;
+				right: 0;
+			}
+			.time-end {
+				position: absolute;
+				right: 0;
+				bottom: 0;
+			}
+		}
+	}
+	.forum-slot {
+		background: rgba(255, 255, 255, .6);
+		> * {
+			padding: 0 1em;
+		}
+		.title {
+			line-height: 32px;
+		}
+		.speaker {
+			.profile-img {
+				display: inline-block;
+				margin-right: 1em;
+				height: 2em;
+				width: 2em;
+				background-size: 2em 2em;
+				border-radius: 50%;
+				vertical-align: middle;
+			}
+		}
+		.slides {
+			color: #0093ba;
+			text-decoration: none;
+		}
+	}
+}
